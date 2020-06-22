@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Entrada</title>
+	<!-- favion -->
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<!-- link to font awesome -->
+	<link media="all" rel="stylesheet" href="vendors/font-awesome/css/font-awesome.css">
+	<!-- link to material icon font -->
+	<link media="all" rel="stylesheet" href="vendors/material-design-icons/material-icons.css">
+	<!-- link to custom icomoon fonts -->
+	<link rel="stylesheet" type="text/css" href="css/fonts/icomoon/icomoon.css">
+	<!-- link to wow js animation -->
+	<link media="all" rel="stylesheet" href="vendors/animate/animate.css">
+	<link rel="stylesheet" href="css/select2.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<!-- include bootstrap css -->
+	<link media="all" rel="stylesheet" href="css/bootstrap.css">
+	<!-- include main css -->
+	<link media="all" rel="stylesheet" href="css/main.css">
+</head>
+<body class="default-page">
+	<div class="preloader" id="pageLoad">
+		<div class="holder">
+			<div class="coffee_cup"></div>
+		</div>
+	</div>
+	<!-- main wrapper -->
+	<div id="wrapper">
+		<div class="page-wrapper">
+			<!-- main header -->
+			<header id="header" style="background-color: #252525;">
+				<div class="container-fluid">
+					<!-- logo -->
+					<div class="logo">
+						<a href="index.html">
+							Guide around
+						</a>
+					</div>
+					<!-- main navigation -->
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle nav-opener" data-toggle="collapse" data-target="#nav">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- main menu items and drop for mobile -->
+						<div class="collapse navbar-collapse" id="nav">
+							<!-- main navbar -->
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a href="index.html">Home</b></a>
+								</li>
+								<li class="dropdown">
+									<a href="#">Tour Listing</a>
+								</li>
+								<li><a href="tour-detail.html">Tour Detail</a></li>
+								<li class="dropdown">
+									<a href="#">Blog</a>
+								</li>
+								<li class="dropdown has-mega-dropdown mega-md">
+									<a href="#">Elements</a>
+								</li>
+								<li class="visible-xs visible-sm">
+									<a href="login.html">
+										<span class="icon icon-user"></span>
+										<span class="text">Login</span>
+									</a>
+								</li>
+								<li class="hidden-xs hidden-sm v-divider">
+									<a href="login.html">
+										<span class="icon icon-user"></span>
+									</a>
+								</li>
+								<li class="dropdown hidden-xs hidden-sm last-dropdown v-divider">
+									<a href="#"><span class="text">EN</span> <span class="icon-angle-down"></span></a>
+									<div class="dropdown-menu dropdown-sm">
+										<div class="drop-wrap lang-wrap">
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">English</span>
+													</a>
+												</div>
+											</div>
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">German</span>
+													</a>
+												</div>
+											</div>
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">Russian</span>
+													</a>
+												</div>
+											</div>
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">Czech</span>
+													</a>
+												</div>
+											</div>
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">Chinese</span>
+													</a>
+												</div>
+											</div>
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">Danish</span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<!-- search form -->
+			</header>
+			<!-- main container -->
+			<main id="main">
+				<!-- top information area -->
+				<div class="inner-top">
+					<div class="container">
+						<h1 class="inner-main-heading">Adding Transport</h1>
+					</div>
+				</div>
+				<div class="inner-main common-spacing container">
+					<!-- booking form -->
+					
+						<div class="row">
+							<div class="col-md-4 edit-side-links">
+								<div class="links-list fixme">
+									<ul>
+										<li><a href="">Adding Excursions</a></li>
+										<li><a href="">Language Skills</a></li>
+										<li><a href="">Licence</a></li>
+										<li><a href="">Transport</a></li>
+										<li><a href="">Additional Services</a></li>
+										<li><a href="">Profile Setup</a></li>
+										<li><a href="">Language</a></li>
+									</ul>
+								</div>
+							</div>
+						<form class="booking-form" action="#">
+							<div class="col-md-8 add-excursion-holder">
+								<div class="form-holder">
+									<div class="wrap">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="hold">
+													<label for="name">Name</label>
+													<input type="text" id="name" class="form-control">
+												</div>
+											</div>
+										</div>
+										<div class="hold custom-select">
+											<label for="name">Type</label>
+											<select class="excursion-type">
+											  <option>Not selected</option>
+											  <option value="oneCity">Hatchback</option>
+											  <option value="fromOneCity">Minivan</option>
+											  <option value="manyCities">Premium</option>
+											  <option value="manyDays">Crossover</option>
+											  <option value="Minibus">Minibus</option>
+											</select>
+										</div>
+										<div class="row">
+											<div class="col-md-4">
+												<div class="hold">
+													<label for="address">Mark</label>
+													<input type="text" id="name" class="form-control">
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="hold">
+													<label for="address">Model</label>
+													<input type="text" id="name" class="form-control">
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="hold">
+													<label for="address">Capacity</label>
+													<input type="text" id="name" class="form-control">
+												</div>
+											</div>
+										</div>
+
+										
+										<div class="hold">
+											<div class="hold custom-select">
+												<label for="language">Additional options or services</label>
+												<select class="js-example-basic-multiple excursion-type" name="states[]" multiple="multiple">
+													 <option value="2">Conditioner</option>
+													 <option value="3">Kids seat</option>
+												</select>
+											</div>
+										</div>
+										<div class="hold custom-select">
+											<label for="address">Services</label>
+											<select class="excursion-type">
+											  <option selected>Not selected</option>
+											  <option value="1">Airport shuttle</option>
+											  <option value="2">City shuttle</option>
+											  <option value="3">Rent a car</option>
+											</select>
+										</div>
+
+										<div class="row">
+											<div class="col-md-3">
+												<div class="hold custom-select">
+													<label for="address">Cost</label>
+													<select class="excursion-type">
+													  <option selected>Not selected</option>
+													  <option value="1">Per kilometer</option>
+													  <option value="2">All the way</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="hold">
+													<label for="address">Price</label>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="hold custom-select">
+													<label for="address">Currency</label>
+													<select class="excursion-type">
+													  <option selected>Currency</option>
+													  <option value="1">EUR</option>
+													  <option value="2">USD</option>
+													  <option value="3">UZS</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="hold">
+											<label for="city">Description</label>
+											<textarea name="" id=""></textarea>
+										</div>
+										<div class="hold send-image">
+											<label class="send-image-label" for="imgInput">Load a photo <br><i class="far fa-image"></i></label>
+											<input type="file" id="imgInput" class="form-control" accept="image/*" multiple>
+											<div id="im"></div>
+										</div>
+										<div class="button-hold">
+											<button class="btn save-button">SAVE</button>
+										</div>
+									</div>
+								</div>
+							</div>
+					</form>
+				</div>
+				</div>
+			</main>
+		</div>
+		<!-- main footer -->
+		<footer id="footer">
+			<div class="container">
+				
+				<!-- footer links -->
+				<div class="footer-content">
+					<ul class="footer-links">
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Партнёрская программа</a></li>
+						<li><a href="#">Реклама</a></li>
+						<li><a href="#">Пресс-центр</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Помощь</a></li>
+						<li><a href="#">Правила</a></li>
+					</ul>
+				</div>
+				<!-- social wrap -->
+				<div class="footer-bottom-copyright">
+					<p>©2020 Guide around. All righs reserved</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- scroll to top -->
+	<div class="scroll-holder text-center">
+		<a href="javascript:" id="scroll-to-top"><i class="icon-arrow-down"></i></a>
+	</div>
+	<!-- jquery library -->
+	<script src="vendors/jquery/jquery-2.1.4.min.js"></script>
+	<!-- external scripts -->
+	<script src="vendors/bootstrap/javascripts/bootstrap.min.js"></script>
+	<script src="vendors/jquery-placeholder/jquery.placeholder.min.js"></script>
+	<script src="vendors/match-height/jquery.matchHeight.js"></script>
+	<script src="vendors/wow/wow.min.js"></script>
+	<script src="vendors/stellar/jquery.stellar.min.js"></script>
+	<script src="vendors/validate/jquery.validate.js"></script>
+	<script src="vendors/waypoint/waypoints.min.js"></script>
+	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
+	<script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+	<script src="vendors/jQuery-touch-punch/jquery.ui.touch-punch.min.js"></script>
+	<script src="vendors/fancybox/jquery.fancybox.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="vendors/jcf/js/jcf.js"></script>
+	<script src="vendors/jcf/js/jcf.select.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="vendors/retina/retina.min.js"></script>
+	<script src="vendors/bootstrap-datetimepicker-master/dist/js/bootstrap-datepicker.js"></script>
+	<!-- mailchimp newsletter subscriber -->
+	<script src="js/mailchimp.js"></script>
+	<!-- custom script -->
+	<script src="js/jquery.main.js"></script>
+	<script>
+		$(document).ready(function() {
+		    $('.js-example-basic-multiple').select2();
+		});
+	</script>
+	
+
+</body>
+</html>
